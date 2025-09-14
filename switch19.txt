@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+  int ch,n,i,j;
+  printf("1square 2.triangle3.inv.triangle4.pyramid\n");
+  scanf("%d%d",&ch,&n);
+switch(ch){
+  case1:for(i=0;i<n;i++){for(j=0;j<=i;j++)
+printf("*");printf("\n");}
+break;
+   case2:for(i=1;i<=n;i++);{for(j=1;j<=i;j++)
+printf("");printf("\n");}
+break;
+
+   case3:for(i=n;i>=;i--){for (j=1;j<=n-i;j++)
+printf(*);printf("\n");}
+break;
+   case4:for(i=1;i<=n;i++){for(j=1;j<=i;j++)
+printf("");for(j=1;j<=2*i-1;j++)
+printf("*");printf("\n"));}
+break;
+default:printf("invaild");
+}
+}
